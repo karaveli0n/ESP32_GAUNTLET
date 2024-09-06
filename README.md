@@ -32,3 +32,5 @@ GND - GND (ESP32CAM)
 
 Sonuçlar ve Değerlendirme
 Projemiz başarılı bir şekilde tamamlandı ve ESP32CAM ile MPU6050 kullanarak bir ele giyilebilir mouse oluşturduk. Bu proje sayesinde Bluetooth teknolojisi ve sensör verilerini kullanarak cihazlar arası etkileşimin nasıl gerçekleştirileceğini öğrendik. Ayrıca, butonların tıklama işlevlerini programlayarak interaktif bir kullanıcı deneyimi sağladık.
+
+Fatih Doğan / Koray Can Yolcu
