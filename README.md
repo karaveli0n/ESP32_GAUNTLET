@@ -1,5 +1,6 @@
-Giriş
-Bu projemizde, mikrodenetleyici dersi kapsamında ele giyilebilir bir mouse tasarlayıp gerçekleştirdik. Projemizde ESP32CAM, MPU6050, USB-TTL programlayıcı, 2 adet buton, mini breadboard ve jumper kablolar kullandık. ESP32CAM ile Bluetooth üzerinden bir bilgisayara bağlanarak, MPU6050 sensöründen gelen hareket verilerini kullanarak fare hareketlerini taklit ettik. Bu raporda projemizin detayları, kullanılan malzemeler, yazılım geliştirme süreci ve karşılaşılan zorlukları aşağıda anlatacağız.
+
+
+Projemizde mikrodenetleyici dersi kapsamında ele giyilebilir bir mouse tasarlayıp gerçekleştirdik. Projemizde ESP32CAM, MPU6050, USB-TTL programlayıcı, 2 adet buton, mini breadboard ve jumper kablolar kullandık. ESP32CAM ile Bluetooth üzerinden bir bilgisayara bağlanarak, MPU6050 sensöründen gelen hareket verilerini kullanarak fare hareketlerini taklit ettik. Bu raporda projemizin detayları, kullanılan malzemeler, yazılım geliştirme süreci ve karşılaşılan zorlukları aşağıda anlatacağız.
 
 Kullanılan Malzemeler
 ESP32CAM: Bu modül hem Wi-Fi hem de Bluetooth özelliklerine sahip bir mikrodenetleyicidir.
@@ -47,7 +48,7 @@ const int button2Pin = 14;
 
 int lastButton1State = HIGH;
 int lastButton2State = HIGH;
-setup() //fonksiyonu içerisinde, sensör ve BLE mouse başlatma işlemlerini gerçekleştirdik:
+
 
 void setup() {
     Serial.begin(115200);
