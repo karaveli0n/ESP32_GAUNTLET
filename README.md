@@ -47,7 +47,7 @@ const int button2Pin = 14;
 
 int lastButton1State = HIGH;
 int lastButton2State = HIGH;
-setup() fonksiyonu içerisinde, sensör ve BLE mouse başlatma işlemlerini gerçekleştirdik:
+setup() //fonksiyonu içerisinde, sensör ve BLE mouse başlatma işlemlerini gerçekleştirdik:
 
 void setup() {
     Serial.begin(115200);
@@ -72,7 +72,7 @@ void setup() {
     bleMouse.begin();
     Serial.println("Bluetooth cihazı başladı: ESP32 Mouse");
 }
-loop() fonksiyonu içerisinde, sensörden okunan verileri işleyerek mouse hareketlerini ve tıklama işlemlerini gerçekleştirdik:
+loop() // fonksiyonu içerisinde, sensörden okunan verileri işleyerek mouse hareketlerini ve tıklama işlemlerini gerçekleştirdik:
 
 void loop() {
     static unsigned long lastUpdate = 0;
